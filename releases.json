@@ -30,12 +30,12 @@
           "appliance": false
         },
         {
-          "board": "comfast-cf-ew71-v2",
-          "name": "Comfast CF-EW71 v2",
-          "openwrt": "25.12.5",
-          "file": "CVFi-Lite-comfast-cf-ew71-v2-25.12.5-0.1.0-lite.bin",
-          "sha256": "df69b2569ee7fdb14caddb63176abcbe5316d74fab07d675c58cd045ab331d5f",
-          "image": "",
+          "board": "asus-rt-ax52",
+          "name": "ASUS RT-AX52",
+          "openwrt": "25.12.0",
+          "file": "CVFi-Lite-asus-rt-ax52-25.12.0-0.1.0-lite.bin",
+          "sha256": "b7fc05f45c02958b36606be61abee49284203d4960b2398047f15c989c8dafd5",
+          "image": "https://image.alza.cz/products/Asus23_022/Asus23_022-01.jpg",
           "note": "",
           "appliance": false
         },
@@ -50,12 +50,12 @@
           "appliance": false
         },
         {
-          "board": "asus-rt-ax52",
-          "name": "ASUS RT-AX52",
-          "openwrt": "25.12.0",
-          "file": "CVFi-Lite-asus-rt-ax52-25.12.0-0.1.0-lite.bin",
-          "sha256": "b7fc05f45c02958b36606be61abee49284203d4960b2398047f15c989c8dafd5",
-          "image": "https://image.alza.cz/products/Asus23_022/Asus23_022-01.jpg",
+          "board": "comfast-cf-ew71-v2",
+          "name": "Comfast CF-EW71 v2",
+          "openwrt": "25.12.5",
+          "file": "CVFi-Lite-comfast-cf-ew71-v2-25.12.5-0.1.0-lite.bin",
+          "sha256": "df69b2569ee7fdb14caddb63176abcbe5316d74fab07d675c58cd045ab331d5f",
+          "image": "",
           "note": "",
           "appliance": false
         },
@@ -268,6 +268,26 @@
           "image": "https://eo-sgp-cos.ruijie.com/background/other/2023-10-30/b2b529094b4d432fa998eba11a445b19.png",
           "note": "",
           "appliance": false
+        },
+        {
+          "board": "x86-64",
+          "name": "PC / x86-64 (EFI)",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-x86-64-24.10.3-0.1.0-lite-efi.img.gz",
+          "sha256": "bb190f37c84267e2fb16ba641f6b7788c7fa87e5de3e764bcd90708293e521fb",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Intel_NUC_Mini_PC.jpg",
+          "note": "",
+          "appliance": true
+        },
+        {
+          "board": "x86-64",
+          "name": "PC / x86-64 (BIOS)",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-x86-64-24.10.3-0.1.0-lite.img.gz",
+          "sha256": "a51afd312604bcfc0c5662d5fb2edb3a3962b4321f02b27f03e4904a95a0ea1e",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Intel_NUC_Mini_PC.jpg",
+          "note": "",
+          "appliance": true
         },
         {
           "board": "zbt-wg3526-16m",
