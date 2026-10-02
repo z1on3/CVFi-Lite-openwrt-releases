@@ -4,3 +4,4 @@
 
 - First release of CVFi Lite: captive portal, coin node support, vouchers, coin rates,
   sales reports, Telegram alerts and firmware updates for low-memory routers.
+- Images for the full CVFi router lineup, plus PC (x86-64), Raspberry Pi and Orange Pi.
