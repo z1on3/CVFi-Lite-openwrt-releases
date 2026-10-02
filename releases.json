@@ -1,5 +1,82 @@
 {
-  "latest": "",
-  "releases": [],
-  "devices": {}
+  "latest": "0.1.0-lite",
+  "releases": [
+    {
+      "version": "0.1.0-lite",
+      "tag": "v0.1.0-lite",
+      "channel": "",
+      "disclaimer": "⚠ Flash at your own risk. We're not responsible for any damage to your device.",
+      "date": "2026-10-02",
+      "notes": "CVFi Lite 0.1.0-lite",
+      "assets": [
+        {
+          "board": "asus-rt-ax52",
+          "name": "ASUS RT-AX52",
+          "openwrt": "25.12.0",
+          "file": "CVFi-Lite-asus-rt-ax52-25.12.0-0.1.0-lite.bin",
+          "sha256": "3cbe40879439032389eb2b7822db9a53ef5a8404c27d7b72df27524df1c3a8cc",
+          "image": "https://image.alza.cz/products/Asus23_022/Asus23_022-01.jpg",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "asus-rt-ax52",
+          "name": "ASUS RT-AX52",
+          "openwrt": "25.12.5",
+          "file": "CVFi-Lite-asus-rt-ax52-25.12.5-0.1.0-lite.bin",
+          "sha256": "101db6032a51b00708b96a8239c0125d0d711f3c8df184f153c66fb60017ff36",
+          "image": "https://image.alza.cz/products/Asus23_022/Asus23_022-01.jpg",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "comfast-cf-ew71-v2",
+          "name": "Comfast CF-EW71 v2",
+          "openwrt": "25.12.5",
+          "file": "CVFi-Lite-comfast-cf-ew71-v2-25.12.5-0.1.0-lite.bin",
+          "sha256": "c1df6928a80eade385c3078329dccb3c47399bb1de2d3f1a5c5b353af2cfcf7e",
+          "image": "",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "x86-64",
+          "name": "PC / x86-64 (EFI)",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-x86-64-24.10.3-0.1.0-lite-efi.img.gz",
+          "sha256": "e42f0d82e0815fdb1c4405a67709b020c8b00fe32c334db71644e0f9df2528c7",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Intel_NUC_Mini_PC.jpg",
+          "note": "",
+          "appliance": true
+        },
+        {
+          "board": "x86-64",
+          "name": "PC / x86-64 (BIOS)",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-x86-64-24.10.3-0.1.0-lite.img.gz",
+          "sha256": "62ec67bf005b9819cc9c23ec31de60a84011541ef61d18f5e119e66fdf04e620",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Intel_NUC_Mini_PC.jpg",
+          "note": "",
+          "appliance": true
+        }
+      ]
+    }
+  ],
+  "devices": {
+    "asus-rt-ax52": {
+      "name": "ASUS RT-AX52",
+      "image": "https://image.alza.cz/products/Asus23_022/Asus23_022-01.jpg",
+      "note": ""
+    },
+    "comfast-cf-ew71-v2": {
+      "name": "Comfast CF-EW71 v2",
+      "image": "",
+      "note": ""
+    },
+    "x86-64": {
+      "name": "PC / x86-64",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Intel_NUC_Mini_PC.jpg",
+      "note": ""
+    }
+  }
 }
