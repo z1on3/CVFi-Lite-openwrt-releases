@@ -1,0 +1,47 @@
+name: Update releases.json
+
+# Keeps releases.json (the OTA manifest the routers read) in sync with the
+# GitHub releases automatically, so cutting a new release makes it appear in
+# every router's "Check for updates" with no manual regen step.
+#
+# Fires when a release is published/edited/deleted, and can be run by hand.
+
+on:
+  release:
+    types: [published, edited, deleted]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-releases-json
+  cancel-in-progress: false
+
+jobs:
+  regen:
+    runs-on: ubuntu-latest
+    steps:
+      # A `release` event checks out the tag (detached HEAD), which cannot be
+      # pushed. Explicitly check out main so the auto-commit lands on a branch.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Regenerate releases.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node tools/gen-releases-json.mjs "${{ github.repository }}" > releases.json
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- releases.json; then
+            echo "releases.json already up to date"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add releases.json
+          git commit -m "chore: auto-regen releases.json (${{ github.event_name }})"
+          git push
