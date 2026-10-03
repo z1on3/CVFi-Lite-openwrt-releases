@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2-lite
+
+- With auto-pause on, customers keep their remaining time through a power outage.
+
 ## 0.1.1-lite
 
 - Remote access point VLANs.
