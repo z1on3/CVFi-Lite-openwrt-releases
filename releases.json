@@ -1,6 +1,306 @@
 {
-  "latest": "0.1.2-lite",
+  "latest": "0.1.3-lite",
   "releases": [
+    {
+      "version": "0.1.3-lite",
+      "tag": "v0.1.3-lite",
+      "channel": "",
+      "disclaimer": "⚠ Flash at your own risk. We're not responsible for any damage to your device.",
+      "date": "2026-10-10",
+      "notes": "CVFi Lite 0.1.3-lite",
+      "assets": [
+        {
+          "board": "airpho-ar-w410",
+          "name": "AIRPHO AR-W410",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-airpho-ar-w410-24.10.3-0.1.3-lite.bin",
+          "sha256": "8dfc671ccd8e20978449cece9173a03362037372440a0f7aa165ae6540cab9de",
+          "image": "",
+          "note": "ZBT WG3526 (16M) clone, flashed through Breed. Same image as the ZBT WG3526 with the router named AR-W410.",
+          "appliance": false
+        },
+        {
+          "board": "asus-rt-ac68u",
+          "name": "ASUS RT-AC68U",
+          "openwrt": "24.10.5",
+          "file": "CVFi-Lite-asus-rt-ac68u-24.10.5-0.1.3-lite.bin",
+          "sha256": "771c5a9a2d547e68911a4cb76b148c22fdb3d0590838516e106efb9cb6605d4d",
+          "image": "https://dlcdnwebimgs.asus.com/gain/6670e848-ba84-47e0-97d5-fd076ac3a137/w185",
+          "note": "⚠ Wi-Fi unsupported on this Broadcom board in OpenWrt — routes over Ethernet only and cannot serve its own hotspot. Use it wired or paired with an external AP. First flash from stock ASUS uses the .trx (this image is that .trx under a .bin name).",
+          "appliance": false
+        },
+        {
+          "board": "asus-rt-ax52",
+          "name": "ASUS RT-AX52",
+          "openwrt": "25.12.0",
+          "file": "CVFi-Lite-asus-rt-ax52-25.12.0-0.1.3-lite.bin",
+          "sha256": "c88b5affbbc99e6a749a280686fb10daa3e497de90045211e3d1ecc99cd6f1c1",
+          "image": "https://image.alza.cz/products/Asus23_022/Asus23_022-01.jpg",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "asus-rt-ax52",
+          "name": "ASUS RT-AX52",
+          "openwrt": "25.12.5",
+          "file": "CVFi-Lite-asus-rt-ax52-25.12.5-0.1.3-lite.bin",
+          "sha256": "6e0cc8a5abdd75b8cd121fb70ee89b11e91d3d130e6e162fcffc17d8690f51d2",
+          "image": "https://image.alza.cz/products/Asus23_022/Asus23_022-01.jpg",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "comfast-cf-ew71-v2",
+          "name": "Comfast CF-EW71 v2",
+          "openwrt": "25.12.5",
+          "file": "CVFi-Lite-comfast-cf-ew71-v2-25.12.5-0.1.3-lite.bin",
+          "sha256": "ee37d9fcd140d18a3fc8c584e57133ab10d0c1352ce389201f963ea50c3625a2",
+          "image": "",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "comfast-cf-ew72-v2",
+          "name": "Comfast CF-EW72 v2",
+          "openwrt": "25.12.5",
+          "file": "CVFi-Lite-comfast-cf-ew72-v2-25.12.5-0.1.3-lite.bin",
+          "sha256": "7ad87e8e141c3000a579a3d5b661239a5857eb5c9b8e43ef5db0345967c08751",
+          "image": "https://comfastgroup.com/wp-content/uploads/2024/09/cf-ew72-v2.webp",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "comfast-cf-n5-v2",
+          "name": "Comfast CF-N5 v2",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-comfast-cf-n5-v2-24.10.3-0.1.3-lite.bin",
+          "sha256": "db413272922e8b5d0f0864cde226d71bc62ec9d7895ede8efa7faf7358960072",
+          "image": "https://comfastgroup.com/wp-content/uploads/2024/09/cf-n5-v2.webp",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "eap225-outdoor-v1",
+          "name": "TP-Link EAP225-Outdoor v1",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-eap225-outdoor-v1-24.10.3-0.1.3-lite.bin",
+          "sha256": "364f652004b81752af329b7cd88cb2e52a64c0f10b9de0a471ba9b2f31b09709",
+          "image": "",
+          "note": "⚠ Experimental — single-port AP-as-gateway image, not yet boot-tested on hardware. Flash only on a device you can recover, and verify one revision (internet + portal + a client session) first.",
+          "appliance": false
+        },
+        {
+          "board": "eap225-outdoor-v3",
+          "name": "TP-Link EAP225-Outdoor v3",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-eap225-outdoor-v3-24.10.3-0.1.3-lite.bin",
+          "sha256": "f339de281907bdca6327451e7b44018ab8d1d6e0a83c85fc3b6ed7f8734140cf",
+          "image": "",
+          "note": "⚠ Experimental — single-port AP-as-gateway image, not yet boot-tested on hardware. Flash only on a device you can recover, and verify one revision (internet + portal + a client session) first.",
+          "appliance": false
+        },
+        {
+          "board": "eap225-v1",
+          "name": "TP-Link EAP225 v1",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-eap225-v1-24.10.3-0.1.3-lite.bin",
+          "sha256": "670576b160fb56796e8c4c7f61cc659106e0b9c055536e489067c7e9c34092af",
+          "image": "",
+          "note": "⚠ Experimental — single-port AP-as-gateway image, not yet boot-tested on hardware. Flash only on a device you can recover, and verify one revision (internet + portal + a client session) first.",
+          "appliance": false
+        },
+        {
+          "board": "eap225-v3",
+          "name": "TP-Link EAP225 v3",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-eap225-v3-24.10.3-0.1.3-lite.bin",
+          "sha256": "0bbccbdcb756ba62036dce5426fe5d79bd2971ecd49879688a449aa09c2630f4",
+          "image": "",
+          "note": "⚠ Experimental — single-port AP-as-gateway image, not yet boot-tested on hardware. Flash only on a device you can recover, and verify one revision (internet + portal + a client session) first.",
+          "appliance": false
+        },
+        {
+          "board": "eap225-v4",
+          "name": "TP-Link EAP225 v4",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-eap225-v4-24.10.3-0.1.3-lite.bin",
+          "sha256": "41cd59a2d15dc7c3fd55b998e67107325b6b0130c8fd60fdc81be1b7cdd0598a",
+          "image": "",
+          "note": "⚠ Experimental — single-port AP-as-gateway image, not yet boot-tested on hardware. Flash only on a device you can recover, and verify one revision (internet + portal + a client session) first.",
+          "appliance": false
+        },
+        {
+          "board": "eap225-wall-v2",
+          "name": "TP-Link EAP225-Wall v2",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-eap225-wall-v2-24.10.3-0.1.3-lite.bin",
+          "sha256": "228ba5129d7eea93bb79b18b7077988717cf5074893aa8a56e60a16ba26251b5",
+          "image": "",
+          "note": "⚠ Experimental — single-port AP-as-gateway image, not yet boot-tested on hardware. Flash only on a device you can recover, and verify one revision (internet + portal + a client session) first.",
+          "appliance": false
+        },
+        {
+          "board": "edup-ep-rt2983",
+          "name": "EDUP EP-RT2983",
+          "openwrt": "25.12.4",
+          "file": "CVFi-Lite-edup-ep-rt2983-25.12.4-0.1.3-lite.bin",
+          "sha256": "9dd9465970746bcd5390c40379d1188d6808ae36f463d171b5393ac4075bc444",
+          "image": "",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "linksys-ea8300",
+          "name": "Linksys EA8300",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-linksys-ea8300-24.10.3-0.1.3-lite.bin",
+          "sha256": "4399532427144634cf064e88a6e40b8aac9594efa35a2fc9e5ca67d710815e79",
+          "image": "",
+          "note": "⚠ OpenWrt 24.10.3 only. Upgrading this board to 24.10.x can fail to boot or sysupgrade (openwrt#17979); keep a recovery path. CVFi Reloaded also offers a 23.05.5 image for this router.",
+          "appliance": false
+        },
+        {
+          "board": "linksys-wrt1900acs",
+          "name": "Linksys WRT1900ACS",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-linksys-wrt1900acs-24.10.3-0.1.3-lite.bin",
+          "sha256": "74d397073e2e28b9f210620884de57d134827cb06dac67290c51e869d3a212cb",
+          "image": "",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "mercusys-mr70x-v1",
+          "name": "Mercusys MR70X v1",
+          "openwrt": "25.12.5",
+          "file": "CVFi-Lite-mercusys-mr70x-v1-25.12.5-0.1.3-lite.bin",
+          "sha256": "337b896093ba2f63a67987035566b9e3fdff861d6c2c904bcd05c090d46c7ce8",
+          "image": "https://static.mercusys.com/product-image/01_large20201223072930.jpg",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "newifi-d2",
+          "name": "Newifi D2",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-newifi-d2-24.10.3-0.1.3-lite.bin",
+          "sha256": "11a5dc739336207ceb727bbe1b2657592ce4d028e13765777c463c6005c12d2e",
+          "image": "",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "orange-pi-one",
+          "name": "Orange Pi One",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-orange-pi-one-24.10.3-0.1.3-lite.img.gz",
+          "sha256": "e0ea1323f79323972babcbbf5d109dc9af0fbc5d63e480cb2509187f03a12bbc",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Top_view_of_an_Orange_Pi_One_single-board_computer.jpg",
+          "note": "",
+          "appliance": true
+        },
+        {
+          "board": "orange-pi-pc",
+          "name": "Orange Pi PC",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-orange-pi-pc-24.10.3-0.1.3-lite.img.gz",
+          "sha256": "dc0b959a7082836bafb2f5209125e1a74b7077f0cffd1561ca8e63c6c91f7ee1",
+          "image": "",
+          "note": "",
+          "appliance": true
+        },
+        {
+          "board": "orange-pi-zero-3",
+          "name": "Orange Pi Zero 3",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-orange-pi-zero-3-24.10.3-0.1.3-lite.img.gz",
+          "sha256": "d7d9bc98518c4bce5323531be4b27ea2a7b38e336de9caf07f7794b0c9480ed5",
+          "image": "",
+          "note": "",
+          "appliance": true
+        },
+        {
+          "board": "raspberry-pi-3",
+          "name": "Raspberry Pi 3",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-raspberry-pi-3-24.10.3-0.1.3-lite.img.gz",
+          "sha256": "908d58edd7c0bdd2e049724183d1fadb302aea05a8755ab6482c31e44d5e25c2",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Raspberry_Pi_3_B%2B.jpg",
+          "note": "",
+          "appliance": true
+        },
+        {
+          "board": "raspberry-pi-4",
+          "name": "Raspberry Pi 4",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-raspberry-pi-4-24.10.3-0.1.3-lite.img.gz",
+          "sha256": "434417133fe81faaa59c69c3466ec724c0e4dd0b724aa993a8661a7c0019e6bc",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Raspberry_Pi_4_Model_B_-_Top.jpg",
+          "note": "",
+          "appliance": true
+        },
+        {
+          "board": "raspberry-pi-5",
+          "name": "Raspberry Pi 5",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-raspberry-pi-5-24.10.3-0.1.3-lite.img.gz",
+          "sha256": "d093941dd7da9d0fe1dda21a91ec7db61d02902067b78ac687b2846c1f5681d7",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Raspberry_Pi_5.jpg",
+          "note": "",
+          "appliance": true
+        },
+        {
+          "board": "ruijie-rg-ew1200g-pro-v1.1",
+          "name": "Ruijie RG-EW1200G PRO v1.1",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-ruijie-rg-ew1200g-pro-v1.1-24.10.3-0.1.3-lite.bin",
+          "sha256": "b2f0d47069cc2c1c4b7c774b08cf649f3a3104fe35ddbe924b220a27234a29f1",
+          "image": "https://eo-sgp-cos.ruijie.com/background/other/2023-10-27/7b9d778c2293490a993760bc68f52396.png",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "ruijie-rg-ew3200gx-pro",
+          "name": "Ruijie RG-EW3200GX PRO",
+          "openwrt": "24.10.5",
+          "file": "CVFi-Lite-ruijie-rg-ew3200gx-pro-24.10.5-0.1.3-lite.bin",
+          "sha256": "ab2e63724fcd73c1ff7e5f748fb1e7db50d9f9c65b62d13f03f275b51d97c369",
+          "image": "https://eo-sgp-cos.ruijie.com/background/other/2023-10-30/b2b529094b4d432fa998eba11a445b19.png",
+          "note": "",
+          "appliance": false
+        },
+        {
+          "board": "x86-64",
+          "name": "PC / x86-64 (EFI)",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-x86-64-24.10.3-0.1.3-lite-efi.img.gz",
+          "sha256": "500ad1a8dc1132bd6a69ed3f4e33befde5f42066d1cb0ff4bc31074c93808fc0",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Intel_NUC_Mini_PC.jpg",
+          "note": "",
+          "appliance": true
+        },
+        {
+          "board": "x86-64",
+          "name": "PC / x86-64 (BIOS)",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-x86-64-24.10.3-0.1.3-lite.img.gz",
+          "sha256": "9f8e665b2b58dd1fba412f3e0ae4ff7e6803017092eee3c8b4fce1d03f630917",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Intel_NUC_Mini_PC.jpg",
+          "note": "",
+          "appliance": true
+        },
+        {
+          "board": "zbt-wg3526-16m",
+          "name": "ZBT WG3526 (16M)",
+          "openwrt": "24.10.3",
+          "file": "CVFi-Lite-zbt-wg3526-16m-24.10.3-0.1.3-lite.bin",
+          "sha256": "5c24a532446a3fffbdcc54ed574d8da4b45b9bbe3f919512d4ebbb9e0d990991",
+          "image": "",
+          "note": "",
+          "appliance": false
+        }
+      ]
+    },
     {
       "version": "0.1.2-lite",
       "tag": "v0.1.2-lite",
