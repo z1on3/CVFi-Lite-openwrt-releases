@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.3-lite
+
+- Pro routers: recover a forgotten admin password with a one-time code from the
+  operator dashboard.
+- Pro operators can reword the portal's buttons and messages.
+- Uploaded logo and coin sound now show up.
+
 ## 0.1.2-lite
 
 - With auto-pause on, customers keep their remaining time through a power outage.
