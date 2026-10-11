@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.4-lite
+
+- Shared database: run several routers on one shared database, so customers, their
+  remaining time, vouchers and sales follow them from router to router.
+- Auto-pause now tells correctly when a customer has left the network, for Wi-Fi
+  clients and for clients on an extra access point or a cable.
+- Lower memory use over long uptimes.
+
 ## 0.1.3-lite
 
 - Pro routers: recover a forgotten admin password with a one-time code from the
