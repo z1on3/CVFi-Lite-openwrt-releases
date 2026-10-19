@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.5-lite
+
+- Router Pro: reach the router's console and portal from anywhere with a public
+  link (boards with 256 MB of RAM or more).
+
 ## 0.1.4-lite
 
 - Shared database: run several routers on one shared database, so customers, their
