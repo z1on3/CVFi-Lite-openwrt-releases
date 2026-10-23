@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.6-lite
+
+- New Interface Settings page:
+  - ISP Setup with Dual ISP: use a second internet connection as a failover backup or
+    to load balance between both.
+  - Choose a role for each port.
+  - Private LAN bridges: group ports into separate private networks.
+  - Network changes that cut off access to the admin page are undone automatically.
+- On low-memory routers the second-ISP check runs less often, and up to 2 private
+  LANs are allowed.
+
 ## 0.1.5-lite
 
 - Router Pro: reach the router's console and portal from anywhere with a public
