@@ -18,6 +18,7 @@ Router images are named `CVFi-Lite-<device>-<openwrt>-<version>.bin`.
 | Comfast CF-N5 v2 | `comfast-cf-n5-v2` | 24.10.3 | |
 | AIRPHO AR-W410 | `airpho-ar-w410` | 24.10.3 | ZBT WG3526 (16M) clone, flashed through Breed |
 | Ruijie RG-EW1200G PRO v1.1 | `ruijie-rg-ew1200g-pro-v1.1` | 24.10.3 | |
+| Ruijie RG-EW1300G v1 | `ruijie-rg-ew1300g-v1` | 25.12.5 | First install from the bootloader over TFTP (serial console) |
 | Newifi D2 | `newifi-d2` | 24.10.3 | |
 | Linksys EA8300 | `linksys-ea8300` | 24.10.3 | ⚠ upgrading this board to 24.10.x can fail to boot or sysupgrade ([openwrt#17979](https://github.com/openwrt/openwrt/issues/17979)); keep a recovery path |
 | Linksys WRT1900ACS | `linksys-wrt1900acs` | 24.10.3 | |
