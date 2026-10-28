@@ -53,6 +53,7 @@ const DEVICES = {
   'mercusys-mr70x-v1':          { name: 'Mercusys MR70X v1',          image: 'https://static.mercusys.com/product-image/01_large20201223072930.jpg' },
   'newifi-d2':                  { name: 'Newifi D2',                  image: '' },
   'ruijie-rg-ew1200g-pro-v1.1': { name: 'Ruijie RG-EW1200G PRO v1.1', image: 'https://eo-sgp-cos.ruijie.com/background/other/2023-10-27/7b9d778c2293490a993760bc68f52396.png' },
+  'ruijie-rg-ew1300g-v1':       { name: 'Ruijie RG-EW1300G v1',       image: '' },
   'ruijie-rg-ew3200gx-pro':     { name: 'Ruijie RG-EW3200GX PRO',     image: 'https://eo-sgp-cos.ruijie.com/background/other/2023-10-30/b2b529094b4d432fa998eba11a445b19.png' },
   'zbt-wg3526-16m':             { name: 'ZBT WG3526 (16M)',           image: '' },
   'airpho-ar-w410':             { name: 'AIRPHO AR-W410',             image: '', note: 'ZBT WG3526 (16M) clone, flashed through Breed. Same image as the ZBT WG3526 with the router named AR-W410.' },

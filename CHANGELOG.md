@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.7-lite
+
+- Built-in Wi-Fi on VLANs: each Wi-Fi network can join the hotspot LAN or any
+  hotspot VLAN, so the router's own Wi-Fi can serve a remote-AP VLAN area too.
+- Wi-Fi now comes up on its own after a fresh flash on OpenWrt 24.10 devices.
+- VLAN customers reach the portal reliably.
+- Bug fixes and stability improvements.
+
 ## 0.1.6-lite
 
 - New Interface Settings page:
